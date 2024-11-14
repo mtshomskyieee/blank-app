@@ -1,0 +1,62 @@
+
+/* Main container styling */
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+.stTitle {
+    color: #1E1E1E;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Form styling */
+.stForm {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* Button styling */
+.stButton > button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+/* Slide container styling */
+.slide-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+}
+
+/* Navigation buttons */
+.stButton > button:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Progress bar styling */
+.stProgress > div {
+    height: 5px;
+    background-color: #007bff;
+}
+
+/* Image styling */
+.stImage {
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+/* Error message styling */
+.stAlert {
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
